@@ -192,7 +192,10 @@ div > ul{
     list-style-position: inside;
     
 }
-
+div > ul > li > a{
+   background-color: rgb(175, 200, 226);
+   font-weight: bolder;
+}
 
 footer {
     background-color:#031999;
