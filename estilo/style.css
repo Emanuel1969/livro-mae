@@ -34,6 +34,7 @@ a.externo::after {
     content:"\00a0\1F517";
 } 
 
+
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
@@ -181,9 +182,18 @@ aside > h3 {
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
-
-
 }
+  
+div > ul{
+    
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    list-style-position: inside;
+    
+}
+
+
 footer {
     background-color:#031999;
     color: white;
